@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px !important;
+}
+body{
+  background-image: url('../images/blog.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1{
+  font-family: impact !important;
+  color: darkgray !important;
+  margin-left: 10% !important;
+}
+h2{
+  padding: 10px !important;
+  font-family: impact !important;
+  background-color: darkgray !important;
+  color: black !important;
+  width:inherit !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+ul{
+  color: darkgray !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  font-family: rockwell !important;
+  font-size: 1.5rem !important;
+}
+span{
+  color: lightgray !important;
+}
+a#wordpress{
+  text-decoration: none !important;
+  color: black !important;
+  background-color: orange !important;
+}
+#more a{
+  color: white !important;
+}
+#more a:hover{
+  color: black !important;
+}
+p{
+  margin-left: 10% !important;
+  max-width: 80% !important;
+  color: white !important;
+  font-family: rockwell !important;
+  font-size: 1.5rem !important;
+}
+.intro{
+  top: 10%;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  padding: 10px 10px !important;
+  position: fixed !important;
+  float: left !important;
+  height: 100% !important;
+  width: 48% !important;
+  overflow: scroll !important;
+}
+.content{
+  margin-top: 3.5%;
+  position: relative !important;
+  width: 48% !important;
+  float: right !important;
+}
+img{
+  border-style: inset !important;
+  border-width: thick !important;
+  border-radius: 4px !important;
+  box-shadow: 4px 4px 10px black !important;
+  margin-left: 10% !important;
+  width: 80% !important;
+  height: auto !important;
+  display: block !important;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+  html{
+    font-size: 18px !important;
+  }
+  h1, h2{
+    font-family: papyrus !important;
+  }
+  h2{
+    width: 100% !important;
+  }
+  .intro{
+    top: 10%;
+    overflow: hidden !important;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1024px) and (orientation: portrait){
+  html{
+    font-size: 20px !important;
+  }
+  .intro, .content{
+    position: relative !important;
+    float: none !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  .intro{
+    margin-top: 10%;
+  }
+  h1, h2{
+    font-family: papyrus !important;
+  }
+
+}
+@media only screen and (max-width: 500px){
+  html{
+    font-size: 12px !important;
+  }
+  .intro, .content{
+    position: relative !important;
+    float: none !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  .intro{
+    margin-top: 7%;
+  }
+  h1, h2{
+    font-family: papyrus !important;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 760px) and (orientation: landscape){
+  html{
+    font-size: 14px !important;
+  }
+  h1, h2{
+    font-family: papyrus !important;
+  }
+  h2{
+    width: 100% !important;
+  }
+  .intro{
+    overflow: hidden !important;
+    top: 10%;
+  }
+}
+@media only screen and (min-width: 1450px){
+  html{
+    font-size: 22px !important;
+  }
+}
